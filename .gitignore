@@ -1,0 +1,16 @@
+# Local design and reference documents, not needed to run the website
+*.pdf
+*.pptx
+*.xd
+
+# Original photo archives are kept locally; only the two site-used 2021 photos
+# are tracked from that archive.
+/assets/images/2017/
+/assets/images/2021/*
+!/assets/images/2021/
+!/assets/images/2021/DSC06917.jpg
+!/assets/images/2021/Dave.jpg
+!/assets/images/2021/*.webp
+
+# macOS metadata
+.DS_Store
